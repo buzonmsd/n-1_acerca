@@ -1,0 +1,237 @@
+body {
+    cursor: crosshair;
+    width: 100wh;
+	height: 90vh;
+	color: #fff;
+	background: linear-gradient(60deg, #BAA0B6, #E196DA, #EABEDB, #672284, #CA0066);
+	background-size: 500% 500%;
+	-webkit-animation: Gradient 20s ease infinite;
+	-moz-animation: Gradient 20s ease infinite;
+	animation: Gradient 20s ease infinite;
+}
+
+    
+
+h1 {
+    font-size: 2vw;
+    font-family: 'Manrope';
+    font-weight: normal;
+    margin: 0px;
+    line-height: 1em;
+    box-sizing: border-box;
+    max-width: 420px;
+}
+
+
+#info {
+    position: relative;
+    z-index: 10;
+    margin: 40px;
+    max-width: 640px;
+  }
+  
+  #sobre {
+    position: relative;
+    z-index: 10;
+    margin: 40px;
+    font-size: 1.2vw;
+    font-family: 'Manrope';
+    max-width: 640px;
+    display: none;
+    background: none;
+    }
+  
+  #info:hover #sobre {
+    display: block;
+  }
+
+
+
+  #calendario {
+    position: relative;
+    z-index: 10;
+    margin: 40px;
+    max-width: 420px;
+  }
+  
+  #agenda {
+    position: relative;
+    z-index: 10;
+    margin: 40px;
+    font-size: 1.2vw;
+    font-family: 'Manrope';
+    max-width: 420px;
+    display: none;
+    background: none;
+    }
+  
+  #calendario:hover #agenda {
+    display: block;
+  }
+
+
+
+  
+#somos {
+    position: relative;
+    z-index: 10;
+    margin: 40px;
+    max-width: 420px;
+  }
+  
+  #nosotres {
+    position: relative;
+    z-index: 10;
+    margin: 40px;
+    font-size: 1.2vw;
+    font-family: 'Manrope';
+    max-width: 420px;
+    display: none;
+    background: none;
+    }
+  
+  #somos:hover #nosotres {
+    display: block;
+  }
+
+
+
+  
+#apoyo {
+    position: relative;
+    z-index: 10;
+    margin: 40px;
+    max-width: 420px;
+  }
+  
+  #dar {
+    position: relative;
+    z-index: 10;
+    margin: 40px;
+    font-size: 1.2vw;
+    font-family: 'Manrope';
+    max-width: 420px;
+    display: none;
+    background: none;
+    }
+  
+  #apoyo:hover #dar {
+    display: block;
+  }
+
+
+
+/*
+.tooltip {
+    position: relative;
+    display:inline-grid; 
+    /*border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 5px;
+    position: absolute;
+    z-index: 1;
+    left: 150%;
+    top: 90%;
+    margin-left: -60px;
+    font-size: 1vw;
+    
+    /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: 
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+*/
+
+
+a:link {
+    color:whitesmoke;
+    text-decoration: none;
+    }
+    a:visited {
+    color:whitesmoke;
+    text-decoration: none;
+    }
+    a:hover {
+    color:blue;
+    text-decoration: underline;
+    }
+    a:active {
+        color:whitesmoke;
+        text-decoration: underline;
+    }
+
+
+
+    
+.footer {
+
+    /*position: inherit;*/
+    float: right;
+    /*outline: 2px solid;*/
+    padding-left: 10em;
+    /*padding-right: 10em;*/
+    color: whitesmoke;
+    word-spacing: 10px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.5vw;
+    /*width: 33.33%;
+    color: white;
+    padding-top:  1px;
+    padding-left:  3px;
+    padding-right:  3px;*/
+    position: absolute;
+    bottom: 0px;
+    right: 15px;
+    }
+    
+
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+
+
